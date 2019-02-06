@@ -84,3 +84,5 @@ scenario_over_years.init_single_entity(
 simulation_over_years = scenario_over_years.new_simulation()
 
 simulation_over_years.calculate_add('irpp', 'year:2014:3')
+
+simulation_over_years.calculate_add('irpp', '2014')
